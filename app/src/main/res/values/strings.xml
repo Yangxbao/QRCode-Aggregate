@@ -1,0 +1,118 @@
+<resources>
+    <string name="app_name">扫码聚合</string>
+    <string name="scan_now">扫一扫</string>
+    <string name="mode_label">扫码模式</string>
+    <string name="mode_prompt">选择扫码模式</string>
+    <string name="mode_auto">自动识别</string>
+    <string name="mode_scan_in_app">App内扫一扫</string>
+    <string name="mode_specific">指定应用</string>
+    <string name="mode_selector_fmt">当前模式：%1$s ▾</string>
+    <string name="not_installed_short_fmt">未检测到%1$s应用</string>
+
+    <string name="quick_launch_entry">应用快捷启动</string>
+    <string name="quick_launch_title">应用快捷启动</string>
+    <string name="quick_launch_scan_apps">扫描本机应用</string>
+    <string name="quick_launch_scheme_none">未检测到Scheme</string>
+    <string name="debug_dialog_title">唤起失败</string>
+    <string name="debug_copy_scheme">复制Scheme</string>
+    <string name="debug_dialog_hint">提示：唤起失败可能是Scheme失效、系统权限限制、应用版本不支持该链接。</string>
+
+    <string name="generate_entry">生成二维码</string>
+    <string name="generate_title">生成二维码</string>
+    <string name="generate_input_hint">输入文字或网址，点击「生成」预览二维码</string>
+    <string name="generate_button">生成</string>
+    <string name="generate_save">保存图片</string>
+    <string name="generate_empty_input">请输入要生成二维码的内容</string>
+    <string name="generate_nothing_to_save">请先生成二维码再保存</string>
+    <string name="generate_failed">二维码生成失败</string>
+    <string name="generate_saved">已保存到相册（Pictures/ScanAggregator）</string>
+    <string name="generate_save_failed">保存失败</string>
+    <string name="generate_permission_denied">未授权存储权限，无法保存</string>
+
+    <string name="scheme_test_entry">Scheme测试</string>
+    <string name="scheme_test_title">Scheme测试</string>
+    <string name="scheme_test_input_hint">输入Scheme链接，如 weixin:// 或 https://xxx</string>
+    <string name="scheme_test_launch">尝试唤起</string>
+    <string name="scheme_test_input_empty">请输入Scheme链接</string>
+    <string name="scheme_test_success">已尝试唤起目标应用</string>
+
+    <string name="settings_entry">设置</string>
+    <string name="settings_title">设置</string>
+    <string name="settings_auto_copy">识别成功后自动复制内容</string>
+    <string name="settings_auto_copy_desc">识别成功后自动把二维码内容复制到剪贴板</string>
+    <string name="settings_beep">扫码提示音</string>
+
+    <string name="local_apps_notice">提示：Android11及以上系统限制，本机扫描添加的自定义应用无法预先做安装检测，会直接尝试唤起应用，唤起失败将自动复制链接。</string>
+    <string name="local_apps_refresh">刷新</string>
+    <string name="local_apps_select_all">全选</string>
+    <string name="local_apps_deselect_all">取消全选</string>
+    <string name="local_apps_save">保存</string>
+    <string name="local_apps_scanning">正在扫描本机应用…</string>
+    <string name="local_apps_empty">未扫描到可添加的应用</string>
+    <string name="local_apps_saved_fmt">已保存 %1$d 个自定义应用</string>
+    <string name="local_apps_builtin_tag">内置规则</string>
+    <string name="local_apps_scheme_fmt">Scheme：%1$s</string>
+    <string name="local_apps_scheme_none">未检测到</string>
+
+    <string name="scan_cancelled">已取消扫码</string>
+    <string name="result_placeholder">扫码结果会显示在这里</string>
+    <string name="content_type_fmt">类型：%1$s</string>
+    <string name="type_url">网址</string>
+    <string name="type_wifi">WiFi信息</string>
+    <string name="type_text">纯文本</string>
+    <string name="type_phone">电话号码</string>
+    <string name="type_sms">短信</string>
+    <string name="type_email">邮箱</string>
+    <string name="scan_in_app_done">链接已复制，请手动打开对应App，粘贴到扫一扫界面使用</string>
+
+    <string name="share_button">分享</string>
+    <string name="share_title">分享扫码内容</string>
+    <string name="theme_to_dark">切换深色</string>
+    <string name="theme_to_light">切换浅色</string>
+    <string name="about_entry">关于</string>
+
+    <string name="history_entry">历史记录</string>
+    <string name="history_title">历史记录</string>
+    <string name="history_empty">暂无扫码记录</string>
+    <string name="history_search_hint">搜索扫码记录</string>
+    <string name="history_search_empty">无匹配的扫码记录</string>
+    <string name="history_clear_confirm">确认清空全部历史记录？</string>
+    <string name="clear_all">清空全部</string>
+    <string name="confirm">清空</string>
+    <string name="cancel">取消</string>
+    <string name="delete">删除</string>
+    <string name="history_menu_copy">复制链接</string>
+    <string name="history_menu_reprocess">使用当前模式重新处理</string>
+    <string name="history_multi_select">多选</string>
+    <string name="history_delete_selected_fmt">删除所选（%1$d）</string>
+    <string name="history_none_selected">请先勾选要删除的记录</string>
+    <string name="history_deleted_fmt">已删除 %1$d 条记录</string>
+    <string name="history_export">导出记录</string>
+    <string name="history_export_done_fmt">已导出 %1$d 条记录（%2$s）</string>
+    <string name="history_export_empty">暂无记录可导出</string>
+    <string name="history_export_failed">导出失败</string>
+
+    <string name="gallery_button">从相册识别</string>
+    <string name="gallery_no_qr">未能从图片中识别到二维码</string>
+
+    <string name="about_title">关于</string>
+    <string name="about_version_fmt">版本：%1$s（%2$d）</string>
+    <string name="about_build_fmt">构建时间：%1$s</string>
+    <string name="about_github">GitHub 项目主页</string>
+    <string name="github_url">https://github.com/Yangxbao/QRCode-Aggregate</string>
+    <string name="about_no_browser">未找到可打开链接的应用</string>
+    <string name="about_rules_fmt">内置规则应用数：%1$d</string>
+    <string name="about_desc">扫码聚合是一个纯本地实现的二维码工具：支持相机扫码与相册识码，按可自定义的本地规则表识别平台并跳转或复制，内置历史记录、App 安装检测、深浅色主题切换，还支持生成与识别二维码。所有规则集中在 assets/rules.json，新增应用无需改代码。</string>
+    <string name="about_limit">受系统与第三方 App 厂商限制，外部 scheme 仅能拉起 App 本体，无法直接打开其内部扫一扫页面；跳转失败会自动复制链接并提示。</string>
+
+    <string name="not_installed_fmt">未检测到%1$s应用，仅复制链接</string>
+    <string name="copy_content">复制文本</string>
+    <string name="copied">内容已复制到剪贴板</string>
+    <string name="opening_fmt">正在打开%1$s…</string>
+    <string name="jump_failed">跳转失败，请手动打开</string>
+    <string name="launch_failed_copy">应用唤起失败，可尝试复制链接</string>
+    <string name="manual_label">未识别出平台的二维码内容，可手动选择平台跳转：</string>
+    <string name="manual_jump">跳转</string>
+    <string name="spinner_prompt">选择平台</string>
+    <string name="rules_load_failed">规则配置加载失败，只能查看扫码结果</string>
+</resources>

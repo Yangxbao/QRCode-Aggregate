@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- 相机权限：声明在这里即可，扫码页（ScanActivity）内部会自己发起运行时授权 -->
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <!-- 「扫描本机应用」需要列出全部已安装应用；本地自用 App，未上架应用市场 -->
+    <uses-permission
+        android:name="android.permission.QUERY_ALL_PACKAGES"
+        tools:ignore="QueryAllPackagesPermission" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <!--
+        安装检测用的包可见性声明（Android 11+）：要把哪些 scheme 的可处理应用查询出来，
+        就在这里声明对应 scheme。新增 rules.json 规则时需同步补充。
+    -->
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="chaoxing" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="alipays" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="weixin" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="bilibili" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="snssdk1128" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="eleme" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="dingtalk" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="leigod" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="google" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="baidunetdisk" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="doubao" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="steam" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="mqq" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="xhs" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="zhihu" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="orpheus" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="alipan" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="taptap" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="mihoyobbs" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="kugou" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="kuwo" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="cn.12306" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="jd" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="taobao" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="pinduoduo" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="kwai" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="sinaweibo" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="mi" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="huawei" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="tenvideo" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="iqiyi" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="youku" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="txdoc" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="lark" />
+        </intent>
+
+        <!-- 内置应用的包名声明：安装检测用 getPackageInfo 按包名查询（Android 11+ 可见性要求） -->
+        <package android:name="com.chaoxing.mobile" />
+        <package android:name="com.eg.android.AlipayGphone" />
+        <package android:name="com.tencent.mm" />
+        <package android:name="tv.danmaku.bili" />
+        <package android:name="com.ss.android.ugc.aweme" />
+        <package android:name="me.ele" />
+        <package android:name="com.alibaba.android.rimet" />
+        <package android:name="com.leigod.android.accelerator" />
+        <package android:name="com.google.android.googlequicksearchbox" />
+        <package android:name="com.baidu.netdisk" />
+        <package android:name="com.larus.nova" />
+        <package android:name="com.valvesoftware.android.steam.community" />
+        <package android:name="com.tencent.mobileqq" />
+        <package android:name="com.xingin.xhs" />
+        <package android:name="com.zhihu.android" />
+        <package android:name="com.netease.cloudmusic" />
+        <package android:name="com.alicloud.databox" />
+        <package android:name="com.taptap" />
+        <package android:name="com.mihoyo.hyperion" />
+        <package android:name="com.kugou.android" />
+        <package android:name="cn.kuwo.player" />
+        <package android:name="com.MobileTicket" />
+        <package android:name="com.jingdong.app.mall" />
+        <package android:name="com.taobao.taobao" />
+        <package android:name="com.xunmeng.pinduoduo" />
+        <package android:name="com.smile.gifmaker" />
+        <package android:name="com.sina.weibo" />
+        <package android:name="com.xiaomi.shop" />
+        <package android:name="com.huawei.appmarket" />
+        <package android:name="com.tencent.qqlive" />
+        <package android:name="com.qiyi.video" />
+        <package android:name="com.youku.phone" />
+        <package android:name="com.tencent.docs" />
+        <package android:name="com.ss.android.lark" />
+    </queries>
+
+    <application
+        android:name=".ScanApp"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ScanAggregator">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- 扫码页：ZXingLite 的 BarcodeCameraScanActivity 子类，相机权限由库内部申请 -->
+        <activity
+            android:name=".ScanActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".HistoryActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".AboutActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".CustomAppsActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".QuickLaunchActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".GenerateQrActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".SchemeTestActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".SettingsActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

@@ -1,0 +1,218 @@
+[
+  {
+    "keyword": "mobilelearn.chaoxing.com",
+    "tip": "识别到学习通链接",
+    "appScheme": "chaoxing://",
+    "package": "com.chaoxing.mobile"
+  },
+  {
+    "keyword": "qr.alipay.com",
+    "tip": "识别到支付宝链接",
+    "appScheme": "alipays://",
+    "package": "com.eg.android.AlipayGphone"
+  },
+  {
+    "keyword": "weixin.com|wechat.com",
+    "tip": "识别到微信链接",
+    "appScheme": "weixin://",
+    "package": "com.tencent.mm"
+  },
+  {
+    "keyword": "bilibili.com",
+    "tip": "识别到B站链接",
+    "appScheme": "bilibili://",
+    "package": "tv.danmaku.bili"
+  },
+  {
+    "keyword": "douyin.com",
+    "tip": "识别到抖音链接",
+    "appScheme": "snssdk1128://",
+    "package": "com.ss.android.ugc.aweme"
+  },
+  {
+    "keyword": "ele.me",
+    "tip": "识别到饿了么链接",
+    "appScheme": "eleme://",
+    "package": "me.ele"
+  },
+  {
+    "keyword": "dingtalk.com",
+    "tip": "识别到钉钉链接",
+    "appScheme": "dingtalk://",
+    "package": "com.alibaba.android.rimet"
+  },
+  {
+    "keyword": "leigod.com",
+    "tip": "识别到雷神加速器链接",
+    "appScheme": "leigod://",
+    "package": "com.leigod.android.accelerator"
+  },
+  {
+    "keyword": "google.com",
+    "tip": "识别到谷歌登录链接",
+    "appScheme": "google://",
+    "package": "com.google.android.googlequicksearchbox"
+  },
+  {
+    "keyword": "pan.baidu.com",
+    "tip": "识别到百度网盘链接",
+    "appScheme": "baidunetdisk://",
+    "package": "com.baidu.netdisk"
+  },
+  {
+    "keyword": "doubao.com",
+    "tip": "识别到豆包登录链接",
+    "appScheme": "doubao://",
+    "package": "com.larus.nova"
+  },
+  {
+    "keyword": "steamcommunity.com|steampowered.com",
+    "tip": "识别到Steam登录链接",
+    "appScheme": "steam://",
+    "package": "com.valvesoftware.android.steam.community"
+  },
+  {
+    "keyword": "qq.com",
+    "tip": "识别到QQ登录链接",
+    "appScheme": "mqq://",
+    "package": "com.tencent.mobileqq"
+  },
+  {
+    "keyword": "xiaohongshu.com",
+    "tip": "识别到小红书链接",
+    "appScheme": "xhs://",
+    "package": "com.xingin.xhs"
+  },
+  {
+    "keyword": "zhihu.com",
+    "tip": "识别到知乎链接",
+    "appScheme": "zhihu://",
+    "package": "com.zhihu.android"
+  },
+  {
+    "keyword": "music.163.com",
+    "tip": "识别到网易云音乐链接",
+    "appScheme": "orpheus://",
+    "package": "com.netease.cloudmusic"
+  },
+  {
+    "keyword": "shturl.cc/",
+    "tip": "阿里云盘链接",
+    "appScheme": "alipan://",
+    "package": "com.alicloud.databox"
+  },
+  {
+    "keyword": "taptap.com",
+    "tip": "TapTap链接",
+    "appScheme": "taptap://",
+    "package": "com.taptap"
+  },
+  {
+    "keyword": "mihoyo.com",
+    "tip": "米哈游链接",
+    "appScheme": "mihoyobbs://",
+    "package": "com.mihoyo.hyperion"
+  },
+  {
+    "keyword": "kugou.com",
+    "tip": "酷狗音乐链接",
+    "appScheme": "kugou://",
+    "package": "com.kugou.android"
+  },
+  {
+    "keyword": "kuwo.cn",
+    "tip": "酷我音乐链接",
+    "appScheme": "kuwo://",
+    "package": "cn.kuwo.player"
+  },
+  {
+    "keyword": "bilibili.com",
+    "tip": "哔哩哔哩链接",
+    "appScheme": "bilibili://",
+    "package": "tv.danmaku.bili"
+  },
+  {
+    "keyword": "12306.cn",
+    "tip": "铁路12306链接",
+    "appScheme": "cn.12306://",
+    "package": "com.MobileTicket"
+  },
+  {
+    "keyword": "jd.com",
+    "tip": "京东链接",
+    "appScheme": "jd://",
+    "package": "com.jingdong.app.mall"
+  },
+  {
+    "keyword": "taobao.com",
+    "tip": "淘宝链接",
+    "appScheme": "taobao://",
+    "package": "com.taobao.taobao"
+  },
+  {
+    "keyword": "pinduoduo.com",
+    "tip": "拼多多链接",
+    "appScheme": "pinduoduo://",
+    "package": "com.xunmeng.pinduoduo"
+  },
+  {
+    "keyword": "douyin.com",
+    "tip": "抖音链接",
+    "appScheme": "snssdk1128://",
+    "package": "com.ss.android.ugc.aweme"
+  },
+  {
+    "keyword": "kuaishou.com",
+    "tip": "快手链接",
+    "appScheme": "kwai://",
+    "package": "com.smile.gifmaker"
+  },
+  {
+    "keyword": "sina.com.cn",
+    "tip": "微博链接",
+    "appScheme": "sinaweibo://",
+    "package": "com.sina.weibo"
+  },
+  {
+    "keyword": "xm.com",
+    "tip": "小米商城链接",
+    "appScheme": "mi://",
+    "package": "com.xiaomi.shop"
+  },
+  {
+    "keyword": "huawei.com",
+    "tip": "华为应用链接",
+    "appScheme": "huawei://",
+    "package": "com.huawei.appmarket"
+  },
+  {
+    "keyword": "v.qq.com",
+    "tip": "腾讯视频链接",
+    "appScheme": "tenvideo://",
+    "package": "com.tencent.qqlive"
+  },
+  {
+    "keyword": "iqiyi.com",
+    "tip": "爱奇艺链接",
+    "appScheme": "iqiyi://",
+    "package": "com.qiyi.video"
+  },
+  {
+    "keyword": "youku.com",
+    "tip": "优酷链接",
+    "appScheme": "youku://",
+    "package": "com.youku.phone"
+  },
+  {
+    "keyword": "tencent.com",
+    "tip": "腾讯文档链接",
+    "appScheme": "txdoc://",
+    "package": "com.tencent.docs"
+  },
+  {
+    "keyword": "feishu.cn",
+    "tip": "飞书链接",
+    "appScheme": "lark://",
+    "package": "com.ss.android.lark"
+  }
+]

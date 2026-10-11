@@ -1,0 +1,30 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- 蓝色圆角背景 -->
+    <path
+        android:fillColor="#1565C0"
+        android:pathData="M20,0h68a20,20 0 0 1 20,20v68a20,20 0 0 1 -20,20h-68a20,20 0 0 1 -20,-20v-68a20,20 0 0 1 20,-20z" />
+
+    <!-- 二维码三个定位角 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillType="evenOdd"
+        android:pathData="M26,26h18v18h-18zM31,31h8v8h-8z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillType="evenOdd"
+        android:pathData="M64,26h18v18h-18zM69,31h8v8h-8z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillType="evenOdd"
+        android:pathData="M26,64h18v18h-18zM31,69h8v8h-8z" />
+
+    <!-- 码点 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M52,52h4v4h-4zM62,52h4v4h-4zM72,52h4v4h-4zM52,62h4v4h-4zM72,62h4v4h-4zM52,72h4v4h-4zM62,72h4v4h-4zM72,72h4v4h-4z" />
+</vector>

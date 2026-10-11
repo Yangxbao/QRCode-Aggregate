@@ -27,7 +27,13 @@ Current version 1.1.0 · [Download APK (Releases)](https://github.com/Yangxbao/Q
 
 ## Screenshots
 
-TODO: real-device screenshots (home / scan / quick launch / history / generate).
+| Home | Scan mode picker |
+| --- | --- |
+| ![Home](screenshots/home.jpg) | ![Scan mode picker](screenshots/mode_selector.jpg) |
+
+| Quick app launcher | Scheme test |
+| --- | --- |
+| ![Quick app launcher](screenshots/quick_launch.jpg) | ![Scheme test](screenshots/scheme_test.jpg) |
 
 ## Build Environment
 

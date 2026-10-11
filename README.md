@@ -27,7 +27,13 @@
 
 ## 项目截图
 
-TODO：发布前补充真机截图（首页 / 扫码页 / 应用快捷启动 / 历史记录 / 生成二维码）。
+| 首页 | 扫码模式选择 |
+| --- | --- |
+| ![首页](screenshots/home.jpg) | ![扫码模式选择](screenshots/mode_selector.jpg) |
+
+| 应用快捷启动 | Scheme测试 |
+| --- | --- |
+| ![应用快捷启动](screenshots/quick_launch.jpg) | ![Scheme测试](screenshots/scheme_test.jpg) |
 
 ## 编译环境
 
